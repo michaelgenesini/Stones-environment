@@ -2,7 +2,12 @@
 
 Clone repo
 
-'npm install'
+'''
+npm install
+'''
+'''
+bower install
+'''
 
 DEBUG=client:* ./bin/www
 

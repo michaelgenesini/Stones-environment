@@ -14,39 +14,36 @@ DEBUG=client:* ./bin/www
 
 ## Directory Layout
     
-    app.js              --> app config
-    package.json        --> for npm
+    app.js                        --> app config
+    package.json                  --> for npm
     bin/
-      www               --> middleware's provider
-    public/             --> all of the files to be used in on the client side
-      bootstrap/        --> all bootstrap files
-        css/
-        img/
-        js/
-      css/              --> css files
-        app.css         --> default stylesheet
-      img/              --> image files
-      js/               --> javascript files
-        app.js          --> declare top-level app module
-        controllers.js  --> application controllers
-        directives.js   --> custom angular directives
-        filters.js      --> custom angular filters
-        services.js     --> custom angular services
-        lib/            --> angular and 3rd party JavaScript libraries
-          angular/
-            angular.js            --> the latest angular js
-            angular.min.js        --> the latest minified angular js
-            angular-*.js          --> angular add-on modules
-            version.txt           --> version number
+      www                         --> middleware's provider
+    development/                          --> all of the PRECOMPILED files (Sass, Jade, Coffee ...)
+      
+      views/                      --> jade partials
+
+      images/                     --> images folder
+
+      fonts/                      --> fonts folder
+
+      styles/
+        style.sass                --> sass files
+
+      scripts/
+        app.coffee                --> declare top-level app module
+        controllers/              --> Angular Controllers files
+        directives/               --> Angular Directives files
+        filters/                  --> Angular Filters files
+        services/                 --> Angular Services files
+
+    public/                       --> all of the COMPILED files to be used in on the client side
+                                  --> NOTE: this folder is completely managed by Grunt, so don't do anything to these files
     routes/
-      api.js            --> route for serving JSON
-      index.js          --> route for serving HTML pages and partials
+      index.js                    --> route for serving HTML page
     views/
-      index.jade        --> main page for app
-      layout.jade       --> doctype, title, head boilerplate
-      partials/         --> angular view partials (partial jade templates)
-        partial1.jade
-        partial2.jade
+      index.jade                  --> main page for app
+      layout.jade                 --> doctype, title, head boilerplate
+      partials/                   --> angular view partials (partial jade templates) these will be rendered by Gunt in public views
 
 
 

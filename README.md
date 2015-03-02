@@ -2,14 +2,13 @@
 
 Clone repo
 
-'''
 npm install
-'''
-'''
-bower install
-'''
 
-DEBUG=client:* ./bin/www
+bower install
+
+grunt serve
+
+npm start
 
 
 ## Directory Layout

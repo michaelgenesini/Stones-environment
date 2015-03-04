@@ -1,5 +1,8 @@
 
 # Stones front-end environment
+<p align="center">
+  <img src="https://copy.com/H717QhjtU7PhmYNt" alt="stones framework"/>
+</p>
 This is a simple grunt workflow that help developers to write less code and to quickly build front-end application.
 ## Usage
 Install dependencies.

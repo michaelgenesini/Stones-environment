@@ -3,7 +3,9 @@
 <p align="center">
   <img src="https://copy.com/H717QhjtU7PhmYNt" alt="stones framework"/>
 </p>
-This is a simple grunt workflow that help developers to write less code and to quickly build front-end application.
+This is a Grunt workflow that help developer to build an Angular application with the power of Sass, Coffee, Jade. It also allows to test your application throw karma test.
+
+
 ## Usage
 Install dependencies.
 ```shell

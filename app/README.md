@@ -1,3 +1,3 @@
 ## Application Folder
 
-description...
+Contains your Angular application’s code.

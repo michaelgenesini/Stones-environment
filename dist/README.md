@@ -1,3 +1,3 @@
 ## Distribution Folder
 
-description...
+Contains the distributable output of your application. Deploy this to your server!

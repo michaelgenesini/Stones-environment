@@ -41,8 +41,13 @@ module.exports = (grunt) ->
       options:
         sourceMap: false
       app:
-        files:
-          '<%= config.dist %>/scripts/*.js': ['<%= config.app %>/scripts/*.coffee']
+        files: [
+          expand: true
+          cwd: '<%= config.app %>/scripts'
+          src: ['**/*.coffee']
+          dest: '<%= config.dist %>/scripts/'
+          ext: '.js'
+        ]
 
     copy:
       main:

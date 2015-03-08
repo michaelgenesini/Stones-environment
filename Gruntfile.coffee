@@ -95,7 +95,7 @@ module.exports = (grunt) ->
       server:
         options:
           port: 3333
-          base: '<%= config.dist %>'
+          base: ['<%= config.dist %>','bower_components']
 
     open:
       dev:

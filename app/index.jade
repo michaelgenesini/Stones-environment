@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		title Stones Application
+		link(rel='stylesheet', href='./bower_components/bootstrap/dist/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/styles/style.css')
+	body(ng-app="myApp")
+		block content
+		script(src="./bower_components/jquery/dist/jquery.min.js")
+		script(src="./bower_components/angular.min.js")
+		script(src="./bower_components/angular-route.min.js")
+		script(src="/scripts/app.js")
+		script(src="/scripts/controllers/homeController.js")
+		script(src="/scripts/controllers/aboutController.js")

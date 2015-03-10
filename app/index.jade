@@ -8,7 +8,14 @@ html
 		link(rel='stylesheet', href='/styles/style.css')
 
 	body(ng-app="myApp")
-		block content
+		div.container-fluid.text-center
+			nav.text-center
+				ul.nav.nav-pills
+					li
+						a(ng-href="#/home", href="#") Home
+					li
+						a(ng-href="#/about", href="#") About
+			div(ng-view="")
 		// bower_components JS here
 		script(src="bower_components/jquery/dist/jquery.min.js")
 		script(src="bower_components/angular/angular.min.js")

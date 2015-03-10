@@ -33,7 +33,6 @@ $ grunt
 | dist/	      		| Contains the distributable output of your application. Deploy this to your server!
 | public/      		| This folder will be copied verbatim into the root of your built application. Use this for assets that don’t have a build step, such as images or fonts.
 | tests/	      	| Includes unit and integration tests for your app, as well as various helpers to load and run your tests.
-| bower_components/	| Your dependencies installed with Bower.
 | vendor/	      	| Your external dependencies not installed with Bower or Npm.
 | .gitignore	 	| Git configuration for ignored files.
 | Grunt.coffee	    | Grunt file for your workflow

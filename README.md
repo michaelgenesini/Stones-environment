@@ -9,7 +9,7 @@ This is a Grunt workflow that help developer to build an Angular application wit
 ## Usage
 Install dependencies.
 ```shell
-$ git clone https://github.com/
+$ git clone https://github.com/michaelgenesini/Stones-environment.git
 $ npm install
 $ bower install
 ```

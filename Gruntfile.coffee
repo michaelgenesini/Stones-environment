@@ -3,10 +3,10 @@
 module.exports = (grunt) ->
 
   appConfig =
-    app: 	'app',
-    dist: 	'dist',
-    pub: 	'public',
-    test: 	'test'
+    app:    'app',
+    dist:   'dist',
+    pub:    'public',
+    test:   'test'
 
   grunt.initConfig
 

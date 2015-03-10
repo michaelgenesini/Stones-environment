@@ -20,7 +20,8 @@ config = ($routeProvider) ->
     controlerAs: 'aboutCtrl'
   .otherwise
   	# Redirect all other route to /
-    redirectTo: '/'
+    #redirectTo: '/'
+    templateUrl: '../404.html'
 
 # Create app module and configure it
 angular

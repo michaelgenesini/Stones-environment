@@ -40,3 +40,6 @@ $ grunt
 | bower.json		| Bower configuration and dependency list.
 | .bowerrc	 		| Bower can be configured using JSON in a .bowerrc file.
 | package.json		| NPM configuration. Mainly used to list the dependencies needed for asset compilation.
+
+
+![stones-folders-layout](https://www.dropbox.com/s/odfb6akb7jkeyw1/folders.png?dl=0)

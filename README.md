@@ -42,4 +42,4 @@ $ grunt
 | package.json		| NPM configuration. Mainly used to list the dependencies needed for asset compilation.
 
 
-![stones-folders-layout](https://www.dropbox.com/s/odfb6akb7jkeyw1/folders.png)
+![stones-folders-layout](https://copy.com/qbbIiG1Vfyk0GBlP)

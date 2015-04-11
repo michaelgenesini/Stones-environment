@@ -1,5 +1,5 @@
 
-# Stones front-end environment
+# Stones front-end environment ![travis](https://travis-ci.org/michaelgenesini/Stones-environment.svg?branch=master)
 <p align="center">
   <img src="https://copy.com/H717QhjtU7PhmYNt" alt="stones framework"/>
 </p>

@@ -12,12 +12,12 @@ config = ($routeProvider) ->
     # Use the same partial views for for all languages
     templateUrl: '../views/home.html'
     controller: 'HomeController'
-    controlerAs: 'homeCtrl'
+    controllerAs: 'homeCtrl'
   .when '/about',
     # Use the same partial views for for all languages
     templateUrl: '../views/about.html'
     controller: 'AboutController'
-    controlerAs: 'aboutCtrl'
+    controllerAs: 'aboutCtrl'
   .otherwise
   	# Redirect all other route to /
     #redirectTo: '/'
